@@ -1,0 +1,15 @@
+{
+    'name': 'Update l10n do',
+    'version': '10.0',
+    'summary': '',
+    'description': 'Update daccount and fiscal position',
+    'category': '',
+    'author': 'Raul Ovalle',
+    'website': '',
+    'license': '',
+    'depends': ['account'],
+    'data': ['data/account.tax.template.xml',
+             'fiscal_position_template.xml'],
+    'installable': True,
+    'auto_install': False,
+}
